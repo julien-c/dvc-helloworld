@@ -16,3 +16,10 @@ stages:
     - train.lr
     outs:
     - AGI.bin
+  eval:
+    cmd: "echo 'f1: 0.99' > scores.yaml"
+    deps:
+    - AGI.bin
+    metrics:
+    - scores.yaml:
+        cache: false

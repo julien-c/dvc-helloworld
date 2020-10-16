@@ -22,3 +22,11 @@ gloubi-boulga:
   outs:
   - path: AGI.bin
     md5: 768c1edbf2de356a71dc01f8dd8cdc32
+eval:
+  cmd: "echo 'f1: 0.99' > scores.yaml"
+  deps:
+  - path: AGI.bin
+    md5: 768c1edbf2de356a71dc01f8dd8cdc32
+  outs:
+  - path: scores.yaml
+    md5: 033f9a015693541da728d988b7b585c4
