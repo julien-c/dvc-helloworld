@@ -1,0 +1,8 @@
+quantize:
+  cmd: cp pytorch_model.bin pytorch_model.v2.bin
+  deps:
+  - path: pytorch_model.bin
+    md5: 82bb4e1a645605f4010b720e3dde9171
+  outs:
+  - path: pytorch_model.v2.bin
+    md5: 82bb4e1a645605f4010b720e3dde9171

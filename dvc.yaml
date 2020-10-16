@@ -1,0 +1,7 @@
+stages:
+  quantize:
+    cmd: cp pytorch_model.bin pytorch_model.v2.bin
+    deps:
+    - pytorch_model.bin
+    outs:
+    - pytorch_model.v2.bin
