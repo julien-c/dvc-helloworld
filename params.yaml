@@ -1,0 +1,10 @@
+seed: 20180226
+
+train:
+  lr: 0.0041
+  epochs: 75
+  layers: 9
+
+processing:
+  threshold: 0.98
+  bow_size: 15000
