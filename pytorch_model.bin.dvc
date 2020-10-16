@@ -1,0 +1,3 @@
+outs:
+- md5: 82753450928911dcc04d033739632435
+  path: pytorch_model.bin
