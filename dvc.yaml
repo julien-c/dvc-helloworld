@@ -5,3 +5,14 @@ stages:
     - pytorch_model.bin
     outs:
     - pytorch_model.v2.bin
+  gloubi-boulga:
+    cmd: date > AGI.bin
+    deps:
+    - README.md
+    - data.xml
+    - pytorch_model.v2.bin
+    params:
+    - seed
+    - train.lr
+    outs:
+    - AGI.bin

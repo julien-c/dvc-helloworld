@@ -6,3 +6,19 @@ quantize:
   outs:
   - path: pytorch_model.v2.bin
     md5: 82bb4e1a645605f4010b720e3dde9171
+gloubi-boulga:
+  cmd: date > AGI.bin
+  deps:
+  - path: README.md
+    md5: ad31e101856b225e73e4b4650d6036b2
+  - path: data.xml
+    md5: a304afb96060aad90176268345e10355
+  - path: pytorch_model.v2.bin
+    md5: 82bb4e1a645605f4010b720e3dde9171
+  params:
+    params.yaml:
+      seed: 20180226
+      train.lr: 0.0041
+  outs:
+  - path: AGI.bin
+    md5: 768c1edbf2de356a71dc01f8dd8cdc32
